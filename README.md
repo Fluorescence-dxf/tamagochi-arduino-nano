@@ -93,7 +93,7 @@ Untuk mengganti teks ucapan dan nama pasangan/orang tersayang di banner pesawat:
    - Cari **`U8g2`** oleh *oliver*.
    - Klik **Install**.
 3. **Buka Proyek**:
-   - Buka file [nashwa_kitten.ino](nashwa_kitten.ino).
+   - Buka file [tamagochi-arduino-nano.ino](tamagochi-arduino-nano.ino).
 4. **Pengaturan Board**:
    - Buka menu **Tools > Board > Arduino AVR Boards > Arduino Nano**.
    - Buka menu **Tools > Processor > ATmega328P** (jika clone Arduino Nano tidak terdeteksi saat upload, pilih **ATmega328P (Old Bootloader)**).
@@ -117,7 +117,7 @@ Untuk mengganti teks ucapan dan nama pasangan/orang tersayang di banner pesawat:
 ├── pet.cpp / pet.h     # Mood, feeding count, & state logic
 ├── sound.cpp / sound.h # Tone sequencer, SFX, & melodi
 ├── scene_*.cpp         # Logika layar terpisah (Boot, Home, Feed, Catch, Run, Bday, Evolve)
-├── nashwa_kitten.ino   # Arduino main sketch entry
+├── tamagochi-arduino-nano.ino # Arduino main sketch entry
 └── README.md           # Dokumentasi proyek
 ```
 
